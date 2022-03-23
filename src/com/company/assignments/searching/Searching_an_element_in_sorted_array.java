@@ -1,4 +1,4 @@
-package com.company.arena.searching;
+package com.company.assignments.searching;
 
 import java.util.Scanner;
 
