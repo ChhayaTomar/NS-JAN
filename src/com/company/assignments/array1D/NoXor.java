@@ -1,4 +1,4 @@
-package com.company.assignments.bop;
+package com.company.assignments.array1D;
 
 import java.util.Scanner;
 

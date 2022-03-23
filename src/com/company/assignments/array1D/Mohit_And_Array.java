@@ -1,8 +1,8 @@
-package com.company.assignments.bop;
+package com.company.assignments.array1D;
 
 import java.util.Scanner;
 
-public class Number_of_distinct_numbers {
+public class Mohit_And_Array {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n=sc.nextInt();
