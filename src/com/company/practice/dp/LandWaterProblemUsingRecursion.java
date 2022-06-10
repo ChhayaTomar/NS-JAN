@@ -7,7 +7,7 @@ public class LandWaterProblemUsingRecursion {
         int[][] body={{1,1,1,0,0},
                       {1,1,1,0,0},
                       {0,1,1,1,1},
-                      {0,1,1,0,1},
+                      {0,1,1,1,1},
                       {0,1,1,1,0}};
 
         int islandCount=0;
@@ -28,7 +28,7 @@ public class LandWaterProblemUsingRecursion {
 
         body[x][y]=1;
         countLand(x,y+1,body); //East
-        countLand(x-1,y,body); //West
+        countLand(x,y-1,body); //West
         countLand(x-1,y,body); //North
         countLand(x+1,y,body); //South
     }
